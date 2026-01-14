@@ -1,0 +1,111 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Full page center */
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main container */
+.container {
+  background: #ffffff;
+  width: 350px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input groups */
+form div {
+  margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+}
+
+input:focus {
+  border-color: #4facfe;
+}
+
+/* Buttons container */
+form div:last-of-type {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Buttons */
+.btn {
+  width: 48%;
+  padding: 10px;
+  background: #4facfe;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00c6fb;
+}
+
+/* Outline button */
+.btn-outline {
+  background: transparent;
+  border: 2px solid #4facfe;
+  color: #4facfe;
+}
+
+.btn-outline:hover {
+  background: #4facfe;
+  color: white;
+}
+
+/* Result section */
+.center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.center h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.center p {
+  font-weight: bold;
+  color: #555;
+}
