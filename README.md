@@ -25,7 +25,7 @@ BMI = (weight / (height × height)) × 703
 Weight → pounds (lbs)
 Height → inches (in)
 
-
+![image alt](https://github.com/AshutoshYadav6389/Bmi_calculator/blob/377a3ee9431edd30854b190c3bb4571b04982402/Screenshot%202026-01-14%20234459.png)
 
 
 
